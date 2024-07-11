@@ -1,0 +1,17 @@
+name: caddywatch
+version: 0.1.0
+
+authors:
+  - Roberto Alsina <roberto.alsina@gmail.com>
+
+targets:
+  caddywatch:
+    main: src/caddywatch.cr
+
+crystal: '>= 1.13.0'
+
+license: MIT
+
+dependencies:
+  inotify:
+    github: petoem/inotify.cr

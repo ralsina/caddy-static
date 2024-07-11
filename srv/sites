@@ -1,0 +1,6 @@
+
+http://ralsina.me:8888 {
+root * /srv/ralsina.me
+file_server browse
+}
+        
